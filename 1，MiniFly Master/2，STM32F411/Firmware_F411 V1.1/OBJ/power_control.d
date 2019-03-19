@@ -3,7 +3,7 @@
 ..\obj\power_control.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\power_control.o: ..\USER\stm32f4xx.h
 ..\obj\power_control.o: ..\CORE\core_cm4.h
-..\obj\power_control.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\power_control.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\power_control.o: ..\CORE\core_cmInstr.h
 ..\obj\power_control.o: ..\CORE\core_cmFunc.h
 ..\obj\power_control.o: ..\CORE\core_cm4_simd.h
@@ -31,9 +31,9 @@
 ..\obj\power_control.o: ..\FLIGHT\interface\power_control.h
 ..\obj\power_control.o: ..\FLIGHT\interface\stabilizer_types.h
 ..\obj\power_control.o: ..\SYSTEM\sys\sys.h
-..\obj\power_control.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\power_control.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\power_control.o: ..\FLIGHT\interface\sensors_types.h
 ..\obj\power_control.o: ..\HARDWARE\interface\motors.h
 ..\obj\power_control.o: ..\CONFIG\interface\config.h
 ..\obj\power_control.o: ..\HARDWARE\interface\nvic.h
-..\obj\power_control.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\power_control.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

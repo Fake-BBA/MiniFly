@@ -3,7 +3,7 @@
 ..\obj\stabilizer.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\stabilizer.o: ..\USER\stm32f4xx.h
 ..\obj\stabilizer.o: ..\CORE\core_cm4.h
-..\obj\stabilizer.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\stabilizer.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\stabilizer.o: ..\CORE\core_cmInstr.h
 ..\obj\stabilizer.o: ..\CORE\core_cmFunc.h
 ..\obj\stabilizer.o: ..\CORE\core_cm4_simd.h
@@ -33,12 +33,12 @@
 ..\obj\stabilizer.o: ..\CONFIG\interface\config.h
 ..\obj\stabilizer.o: ..\HARDWARE\interface\nvic.h
 ..\obj\stabilizer.o: ..\SYSTEM\sys\sys.h
-..\obj\stabilizer.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\stabilizer.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\stabilizer.o: ..\COMMON\interface\debug_assert.h
 ..\obj\stabilizer.o: ..\COMMUNICATE\interface\console.h
-..\obj\stabilizer.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\stabilizer.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\stabilizer.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\stabilizer.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\stabilizer.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\stabilizer.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\stabilizer.o: ..\FreeRTOS\include\portable.h
 ..\obj\stabilizer.o: ..\FreeRTOS\include\deprecated_definitions.h

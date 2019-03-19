@@ -3,7 +3,7 @@
 ..\obj\atkp.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\atkp.o: ..\USER\stm32f4xx.h
 ..\obj\atkp.o: ..\CORE\core_cm4.h
-..\obj\atkp.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\atkp.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\atkp.o: ..\CORE\core_cmInstr.h
 ..\obj\atkp.o: ..\CORE\core_cmFunc.h
 ..\obj\atkp.o: ..\CORE\core_cm4_simd.h
@@ -28,9 +28,9 @@
 ..\obj\atkp.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
 ..\obj\atkp.o: ..\FWLIB\inc\misc.h
 ..\obj\atkp.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
-..\obj\atkp.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\string.h
-..\obj\atkp.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\atkp.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\atkp.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\atkp.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\atkp.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\atkp.o: ..\COMMUNICATE\interface\atkp.h
 ..\obj\atkp.o: ..\COMMUNICATE\interface\radiolink.h
 ..\obj\atkp.o: ..\COMMUNICATE\interface\usblink.h
@@ -63,7 +63,7 @@
 ..\obj\atkp.o: ..\COMMUNICATE\interface\remoter_ctrl.h
 ..\obj\atkp.o: ..\HARDWARE\interface\module_detect.h
 ..\obj\atkp.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\atkp.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\atkp.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\atkp.o: ..\CONFIG\interface\FreeRTOSConfig.h
 ..\obj\atkp.o: ..\COMMON\interface\debug_assert.h
 ..\obj\atkp.o: ..\COMMUNICATE\interface\console.h

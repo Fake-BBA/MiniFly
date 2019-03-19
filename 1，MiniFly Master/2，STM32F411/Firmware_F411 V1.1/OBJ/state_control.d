@@ -3,7 +3,7 @@
 ..\obj\state_control.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\state_control.o: ..\USER\stm32f4xx.h
 ..\obj\state_control.o: ..\CORE\core_cm4.h
-..\obj\state_control.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\state_control.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\state_control.o: ..\CORE\core_cmInstr.h
 ..\obj\state_control.o: ..\CORE\core_cmFunc.h
 ..\obj\state_control.o: ..\CORE\core_cm4_simd.h
@@ -28,9 +28,9 @@
 ..\obj\state_control.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
 ..\obj\state_control.o: ..\FWLIB\inc\misc.h
 ..\obj\state_control.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
-..\obj\state_control.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\state_control.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\state_control.o: ..\FLIGHT\interface\stabilizer.h
-..\obj\state_control.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\state_control.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\state_control.o: ..\FLIGHT\interface\stabilizer_types.h
 ..\obj\state_control.o: ..\SYSTEM\sys\sys.h
 ..\obj\state_control.o: ..\FLIGHT\interface\sensors_types.h
@@ -41,6 +41,6 @@
 ..\obj\state_control.o: ..\COMMUNICATE\interface\atkp.h
 ..\obj\state_control.o: ..\CONFIG\interface\config.h
 ..\obj\state_control.o: ..\HARDWARE\interface\nvic.h
-..\obj\state_control.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\state_control.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\state_control.o: ..\FLIGHT\interface\position_pid.h
 ..\obj\state_control.o: ..\CONFIG\interface\config_param.h

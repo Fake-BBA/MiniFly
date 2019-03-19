@@ -3,7 +3,7 @@
 ..\obj\sensfusion6.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\sensfusion6.o: ..\USER\stm32f4xx.h
 ..\obj\sensfusion6.o: ..\CORE\core_cm4.h
-..\obj\sensfusion6.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\sensfusion6.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\sensfusion6.o: ..\CORE\core_cmInstr.h
 ..\obj\sensfusion6.o: ..\CORE\core_cmFunc.h
 ..\obj\sensfusion6.o: ..\CORE\core_cm4_simd.h
@@ -28,12 +28,12 @@
 ..\obj\sensfusion6.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
 ..\obj\sensfusion6.o: ..\FWLIB\inc\misc.h
 ..\obj\sensfusion6.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
-..\obj\sensfusion6.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\sensfusion6.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\sensfusion6.o: ..\FLIGHT\interface\sensfusion6.h
 ..\obj\sensfusion6.o: ..\FLIGHT\interface\stabilizer_types.h
 ..\obj\sensfusion6.o: ..\SYSTEM\sys\sys.h
-..\obj\sensfusion6.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\sensfusion6.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\sensfusion6.o: ..\FLIGHT\interface\sensors_types.h
 ..\obj\sensfusion6.o: ..\CONFIG\interface\config.h
 ..\obj\sensfusion6.o: ..\HARDWARE\interface\nvic.h
-..\obj\sensfusion6.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\sensfusion6.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

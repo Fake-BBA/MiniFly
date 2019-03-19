@@ -3,7 +3,7 @@
 ..\obj\attitude_pid.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\attitude_pid.o: ..\USER\stm32f4xx.h
 ..\obj\attitude_pid.o: ..\CORE\core_cm4.h
-..\obj\attitude_pid.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\attitude_pid.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\attitude_pid.o: ..\CORE\core_cmInstr.h
 ..\obj\attitude_pid.o: ..\CORE\core_cmFunc.h
 ..\obj\attitude_pid.o: ..\CORE\core_cm4_simd.h
@@ -28,7 +28,7 @@
 ..\obj\attitude_pid.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
 ..\obj\attitude_pid.o: ..\FWLIB\inc\misc.h
 ..\obj\attitude_pid.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
-..\obj\attitude_pid.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\attitude_pid.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\attitude_pid.o: ..\FLIGHT\interface\pid.h
 ..\obj\attitude_pid.o: ..\CONFIG\interface\config_param.h
 ..\obj\attitude_pid.o: ..\SYSTEM\sys\sys.h
@@ -40,4 +40,4 @@
 ..\obj\attitude_pid.o: ..\COMMUNICATE\interface\atkp.h
 ..\obj\attitude_pid.o: ..\CONFIG\interface\config.h
 ..\obj\attitude_pid.o: ..\HARDWARE\interface\nvic.h
-..\obj\attitude_pid.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\attitude_pid.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

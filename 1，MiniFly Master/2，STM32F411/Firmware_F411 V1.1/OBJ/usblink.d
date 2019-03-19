@@ -3,7 +3,7 @@
 ..\obj\usblink.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\usblink.o: ..\USER\stm32f4xx.h
 ..\obj\usblink.o: ..\CORE\core_cm4.h
-..\obj\usblink.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usblink.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\usblink.o: ..\CORE\core_cmInstr.h
 ..\obj\usblink.o: ..\CORE\core_cmFunc.h
 ..\obj\usblink.o: ..\CORE\core_cm4_simd.h
@@ -28,12 +28,12 @@
 ..\obj\usblink.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
 ..\obj\usblink.o: ..\FWLIB\inc\misc.h
 ..\obj\usblink.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
-..\obj\usblink.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
-..\obj\usblink.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\usblink.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\usblink.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\usblink.o: ..\CONFIG\interface\config.h
 ..\obj\usblink.o: ..\HARDWARE\interface\nvic.h
 ..\obj\usblink.o: ..\SYSTEM\sys\sys.h
-..\obj\usblink.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usblink.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\usblink.o: ..\COMMUNICATE\interface\usblink.h
 ..\obj\usblink.o: ..\COMMUNICATE\interface\atkp.h
 ..\obj\usblink.o: ..\CONFIG\interface\config_param.h
@@ -53,7 +53,7 @@
 ..\obj\usblink.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h
 ..\obj\usblink.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h
 ..\obj\usblink.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\usblink.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\usblink.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\usblink.o: ..\CONFIG\interface\FreeRTOSConfig.h
 ..\obj\usblink.o: ..\COMMON\interface\debug_assert.h
 ..\obj\usblink.o: ..\COMMUNICATE\interface\console.h

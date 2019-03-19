@@ -3,7 +3,7 @@
 ..\obj\anomal_detec.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\anomal_detec.o: ..\USER\stm32f4xx.h
 ..\obj\anomal_detec.o: ..\CORE\core_cm4.h
-..\obj\anomal_detec.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\anomal_detec.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\anomal_detec.o: ..\CORE\core_cmInstr.h
 ..\obj\anomal_detec.o: ..\CORE\core_cmFunc.h
 ..\obj\anomal_detec.o: ..\CORE\core_cm4_simd.h
@@ -28,14 +28,14 @@
 ..\obj\anomal_detec.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
 ..\obj\anomal_detec.o: ..\FWLIB\inc\misc.h
 ..\obj\anomal_detec.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
-..\obj\anomal_detec.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\anomal_detec.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\anomal_detec.o: ..\COMMUNICATE\interface\commander.h
 ..\obj\anomal_detec.o: ..\COMMUNICATE\interface\atkp.h
-..\obj\anomal_detec.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\anomal_detec.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\anomal_detec.o: ..\CONFIG\interface\config.h
 ..\obj\anomal_detec.o: ..\HARDWARE\interface\nvic.h
 ..\obj\anomal_detec.o: ..\SYSTEM\sys\sys.h
-..\obj\anomal_detec.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\anomal_detec.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\anomal_detec.o: ..\FLIGHT\interface\stabilizer_types.h
 ..\obj\anomal_detec.o: ..\FLIGHT\interface\sensors_types.h
 ..\obj\anomal_detec.o: ..\FLIGHT\interface\anomal_detec.h

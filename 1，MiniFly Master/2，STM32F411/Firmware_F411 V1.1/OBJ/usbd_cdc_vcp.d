@@ -3,7 +3,7 @@
 ..\obj\usbd_cdc_vcp.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\usbd_cdc_vcp.o: ..\USER\stm32f4xx.h
 ..\obj\usbd_cdc_vcp.o: ..\CORE\core_cm4.h
-..\obj\usbd_cdc_vcp.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usbd_cdc_vcp.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\usbd_cdc_vcp.o: ..\CORE\core_cmInstr.h
 ..\obj\usbd_cdc_vcp.o: ..\CORE\core_cmFunc.h
 ..\obj\usbd_cdc_vcp.o: ..\CORE\core_cm4_simd.h
@@ -29,7 +29,7 @@
 ..\obj\usbd_cdc_vcp.o: ..\FWLIB\inc\misc.h
 ..\obj\usbd_cdc_vcp.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
 ..\obj\usbd_cdc_vcp.o: ..\USB\USB_APP\interface\usbd_cdc_vcp.h
-..\obj\usbd_cdc_vcp.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\usbd_cdc_vcp.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\usbd_cdc_vcp.o: ..\USB\STM32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h
 ..\obj\usbd_cdc_vcp.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h
 ..\obj\usbd_cdc_vcp.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h
@@ -44,12 +44,12 @@
 ..\obj\usbd_cdc_vcp.o: ..\USB\USB_APP\interface\usbd_desc.h
 ..\obj\usbd_cdc_vcp.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_req.h
 ..\obj\usbd_cdc_vcp.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\usbd_cdc_vcp.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\usbd_cdc_vcp.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\usbd_cdc_vcp.o: ..\CONFIG\interface\FreeRTOSConfig.h
 ..\obj\usbd_cdc_vcp.o: ..\CONFIG\interface\config.h
 ..\obj\usbd_cdc_vcp.o: ..\HARDWARE\interface\nvic.h
 ..\obj\usbd_cdc_vcp.o: ..\SYSTEM\sys\sys.h
-..\obj\usbd_cdc_vcp.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usbd_cdc_vcp.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\usbd_cdc_vcp.o: ..\COMMON\interface\debug_assert.h
 ..\obj\usbd_cdc_vcp.o: ..\COMMUNICATE\interface\console.h
 ..\obj\usbd_cdc_vcp.o: ..\FreeRTOS\include\projdefs.h

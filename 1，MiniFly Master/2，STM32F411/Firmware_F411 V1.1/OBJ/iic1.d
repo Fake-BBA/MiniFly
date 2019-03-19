@@ -3,7 +3,7 @@
 ..\obj\iic1.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\iic1.o: ..\USER\stm32f4xx.h
 ..\obj\iic1.o: ..\CORE\core_cm4.h
-..\obj\iic1.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\iic1.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\iic1.o: ..\CORE\core_cmInstr.h
 ..\obj\iic1.o: ..\CORE\core_cmFunc.h
 ..\obj\iic1.o: ..\CORE\core_cm4_simd.h
@@ -31,4 +31,4 @@
 ..\obj\iic1.o: ..\HARDWARE\interface\iic1.h
 ..\obj\iic1.o: ..\SYSTEM\sys\sys.h
 ..\obj\iic1.o: ..\SYSTEM\delay\delay.h
-..\obj\iic1.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\iic1.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

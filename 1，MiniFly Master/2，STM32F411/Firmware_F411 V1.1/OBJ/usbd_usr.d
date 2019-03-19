@@ -3,7 +3,7 @@
 ..\obj\usbd_usr.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\usbd_usr.o: ..\USER\stm32f4xx.h
 ..\obj\usbd_usr.o: ..\CORE\core_cm4.h
-..\obj\usbd_usr.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usbd_usr.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\usbd_usr.o: ..\CORE\core_cmInstr.h
 ..\obj\usbd_usr.o: ..\CORE\core_cmFunc.h
 ..\obj\usbd_usr.o: ..\CORE\core_cm4_simd.h
@@ -39,6 +39,6 @@
 ..\obj\usbd_usr.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h
 ..\obj\usbd_usr.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h
 ..\obj\usbd_usr.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_dcd_int.h
-..\obj\usbd_usr.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usbd_usr.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\usbd_usr.o: ..\SYSTEM\usart\usart.h
 ..\obj\usbd_usr.o: ..\SYSTEM\sys\sys.h

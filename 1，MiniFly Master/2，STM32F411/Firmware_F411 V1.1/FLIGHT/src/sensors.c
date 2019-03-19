@@ -29,10 +29,10 @@
 
 
 #define SENSORS_GYRO_FS_CFG       MPU6500_GYRO_FS_2000
-#define SENSORS_DEG_PER_LSB_CFG   MPU6500_DEG_PER_LSB_2000
+#define SENSORS_DEG_PER_LSB_CFG   MPU6500_DEG_PER_LSB_2000	//根据量程来将16位的数据转化为对应的单位，即若用iic得到的16位数据*LSB_2000即得到角度/度数
 
 #define SENSORS_ACCEL_FS_CFG      MPU6500_ACCEL_FS_16	
-#define SENSORS_G_PER_LSB_CFG     MPU6500_G_PER_LSB_16
+#define SENSORS_G_PER_LSB_CFG     MPU6500_G_PER_LSB_16		//根据量程来将16位的数据转化为对应的单位，即若用iic得到的16位数据*LSB_16即得到加速度/g
 
 #define SENSORS_NBR_OF_BIAS_SAMPLES		1024	/* 计算方差的采样样本个数 */
 #define GYRO_VARIANCE_BASE				4000	/* 陀螺仪零偏方差阈值 */
@@ -164,8 +164,8 @@ void sensorsDeviceInit(void)
 	mpu6500SetTempSensorEnabled(true);	// 使能温度传感器	
 	mpu6500SetIntEnabled(false);		// 关闭中断	
 	mpu6500SetI2CBypassEnabled(true);	// 旁路模式，磁力计和气压连接到主IIC	
-	mpu6500SetFullScaleGyroRange(SENSORS_GYRO_FS_CFG);	// 设置陀螺量程	
-	mpu6500SetFullScaleAccelRange(SENSORS_ACCEL_FS_CFG);// 设置加速计量程	
+	mpu6500SetFullScaleGyroRange(SENSORS_GYRO_FS_CFG);	// 设置陀螺量程	2000
+	mpu6500SetFullScaleAccelRange(SENSORS_ACCEL_FS_CFG);// 设置加速计量程	16g
 	mpu6500SetAccelDLPF(MPU6500_ACCEL_DLPF_BW_41);		// 设置加速计数字低通滤波
 
 	mpu6500SetRate(0);// 设置采样速率: 1000 / (1 + 0) = 1000Hz
@@ -363,10 +363,11 @@ static bool processAccScale(int16_t ax, int16_t ay, int16_t az)
 
 	if (!accBiasFound)
 	{
+		//powf 计算x的y次幂
 		accScaleSum += sqrtf(powf(ax * SENSORS_G_PER_LSB_CFG, 2) + powf(ay * SENSORS_G_PER_LSB_CFG, 2) + powf(az * SENSORS_G_PER_LSB_CFG, 2));
 		accScaleSumCount++;
 
-		if (accScaleSumCount == SENSORS_ACC_SCALE_SAMPLES)
+		if (accScaleSumCount == SENSORS_ACC_SCALE_SAMPLES)	//加速度计采样数已满足
 		{
 			accScale = accScaleSum / SENSORS_ACC_SCALE_SAMPLES;
 			accBiasFound = true;
@@ -461,7 +462,7 @@ void processAccGyroMeasurements(const uint8_t *buffer)
 		processAccScale(ax, ay, az);	/*计算accScale*/
 	}
 	
-	sensors.gyro.x = -(gx - gyroBias.x) * SENSORS_DEG_PER_LSB_CFG;	/*单位 °/s */
+	sensors.gyro.x = -(gx - gyroBias.x) * SENSORS_DEG_PER_LSB_CFG;	/*单位 °/s */ //
 	sensors.gyro.y =  (gy - gyroBias.y) * SENSORS_DEG_PER_LSB_CFG;
 	sensors.gyro.z =  (gz - gyroBias.z) * SENSORS_DEG_PER_LSB_CFG;
 	applyAxis3fLpf((lpf2pData*)(&gyroLpf), &sensors.gyro);
@@ -490,10 +491,10 @@ void sensorsTask(void *param)
 			i2cdevRead(I2C1_DEV, MPU6500_ADDRESS_AD0_HIGH, MPU6500_RA_ACCEL_XOUT_H, dataLen, buffer);
 			
 			/*处理原始数据，并放入数据队列中*/
-			processAccGyroMeasurements(&(buffer[0]));
+			processAccGyroMeasurements(&(buffer[0]));	//处理加速度计和陀螺仪的值
 			if (isMagPresent)
 			{
-				processMagnetometerMeasurements(&(buffer[SENSORS_MPU6500_BUFF_LEN]));
+				processMagnetometerMeasurements(&(buffer[SENSORS_MPU6500_BUFF_LEN]));	//处理磁力计数据
 			}
 			if (isBaroPresent)
 			{

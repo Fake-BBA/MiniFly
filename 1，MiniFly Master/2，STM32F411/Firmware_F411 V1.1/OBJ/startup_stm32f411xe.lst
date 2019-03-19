@@ -765,11 +765,11 @@ ARM Macro Assembler    Page 12
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=..\obj\startup_stm32f411xe.d -o..\obj\startup_stm32f411xe.o -I.
-\RTE\_Firmware -IC:\software\keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CM
-SIS\Device\ST\STM32F4xx\Include -IC:\software\keil5\ARM\CMSIS\Include --predefi
-ne="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 526" --predefine="ST
-M32F411xE SETA 1" --list=..\obj\startup_stm32f411xe.lst ..\CORE\startup_stm32f4
-11xe.s
+\RTE\_Firmware -IC:\software\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers
+\CMSIS\Device\ST\STM32F4xx\Include -IC:\software\Keil_v5\ARM\CMSIS\Include --pr
+edefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 526" --predefin
+e="STM32F411xE SETA 1" --list=..\obj\startup_stm32f411xe.lst ..\CORE\startup_st
+m32f411xe.s
 
 
 

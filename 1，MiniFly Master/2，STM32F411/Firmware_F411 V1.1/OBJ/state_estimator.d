@@ -3,7 +3,7 @@
 ..\obj\state_estimator.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\state_estimator.o: ..\USER\stm32f4xx.h
 ..\obj\state_estimator.o: ..\CORE\core_cm4.h
-..\obj\state_estimator.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\state_estimator.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\state_estimator.o: ..\CORE\core_cmInstr.h
 ..\obj\state_estimator.o: ..\CORE\core_cmFunc.h
 ..\obj\state_estimator.o: ..\CORE\core_cm4_simd.h
@@ -28,11 +28,11 @@
 ..\obj\state_estimator.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
 ..\obj\state_estimator.o: ..\FWLIB\inc\misc.h
 ..\obj\state_estimator.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
-..\obj\state_estimator.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\state_estimator.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\state_estimator.o: ..\FLIGHT\interface\sensfusion6.h
 ..\obj\state_estimator.o: ..\FLIGHT\interface\stabilizer_types.h
 ..\obj\state_estimator.o: ..\SYSTEM\sys\sys.h
-..\obj\state_estimator.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\state_estimator.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\state_estimator.o: ..\FLIGHT\interface\sensors_types.h
 ..\obj\state_estimator.o: ..\FLIGHT\interface\state_estimator.h
 ..\obj\state_estimator.o: ..\FLIGHT\interface\attitude_pid.h
@@ -40,5 +40,5 @@
 ..\obj\state_estimator.o: ..\COMMUNICATE\interface\atkp.h
 ..\obj\state_estimator.o: ..\CONFIG\interface\config.h
 ..\obj\state_estimator.o: ..\HARDWARE\interface\nvic.h
-..\obj\state_estimator.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\state_estimator.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\state_estimator.o: ..\FLIGHT\interface\position_pid.h

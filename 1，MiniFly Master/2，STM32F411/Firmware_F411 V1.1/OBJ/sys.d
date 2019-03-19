@@ -3,7 +3,7 @@
 ..\obj\sys.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\sys.o: ..\USER\stm32f4xx.h
 ..\obj\sys.o: ..\CORE\core_cm4.h
-..\obj\sys.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\sys.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\sys.o: ..\CORE\core_cmInstr.h
 ..\obj\sys.o: ..\CORE\core_cmFunc.h
 ..\obj\sys.o: ..\CORE\core_cm4_simd.h

@@ -3,7 +3,7 @@
 ..\obj\pid.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\pid.o: ..\USER\stm32f4xx.h
 ..\obj\pid.o: ..\CORE\core_cm4.h
-..\obj\pid.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\pid.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\pid.o: ..\CORE\core_cmInstr.h
 ..\obj\pid.o: ..\CORE\core_cmFunc.h
 ..\obj\pid.o: ..\CORE\core_cm4_simd.h
@@ -31,4 +31,4 @@
 ..\obj\pid.o: ..\FLIGHT\interface\pid.h
 ..\obj\pid.o: ..\CONFIG\interface\config_param.h
 ..\obj\pid.o: ..\SYSTEM\sys\sys.h
-..\obj\pid.o: C:\software\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\pid.o: C:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
